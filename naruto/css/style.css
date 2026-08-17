@@ -1,0 +1,62 @@
+.portrait-video {
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    object-position: right center; /* Move o enquadramento para a direita */
+}
+
+h1{
+    font-size: 90px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr{
+    width: 50%;
+    background: rgb(255, 0, 0);
+    height: 2px;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+}
+
+/* Container que alinha as imagens lado a lado e centraliza */
+.galeria {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens na tela */
+    align-items: center;     /* Alinha a altura ao centro */
+    gap: 15px;               /* Espaçamento entre as imagens */
+    flex-wrap: wrap;         /* Ajusta em telas menores se não couber */
+}
+
+/* Tamanho das imagens */
+.galeria img {
+    height: 300px;
+    width: auto;            /* Mantém a proporção correta */
+    object-fit: cover;
+}
+
+
+
+.caixa{
+    width: fit-content;
+    margin: auto;
+}
+
+video{
+    height: 50%;
+    margin: auto;
+    display: block;
+}
