@@ -1,0 +1,73 @@
+/* --- TEMA TEMÁTICO NARUTO (APENAS CSS) --- */
+
+/* Fundo da página em tom escuro estilo Akatsuki com gradiente leve */
+body {
+  background: linear-gradient(135deg, #121212 0%, #1a1a24 100%);
+  color: #e0e0e0;
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+/* Container do conteúdo estilizado como um Pergaminho Ninja */
+.caixa {
+  background-color: #2b2b36;
+  border: 2px solid #ff6b00; /* Borda com a cor laranja clássica do Naruto */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 107, 0, 0.25); /* Brilho laranja ao redor */
+  padding: 30px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Títulos com a paleta Laranja e Amarelo do Chakra */
+h1, h2, h3 {
+  color: #ff6b00;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Detalhe de destaque nos títulos H2 estilo bandana ninja */
+h2 {
+  border-bottom: 2px solid #ff9100;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+/* Estilo do texto geral */
+p {
+  color: #d1d1d1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Molduras estilizadas para as imagens e vídeos */
+img, video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #ff6b00;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Linhas divisórias estilizadas (estilo raio/chakra) */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff6b00, transparent);
+  width: 80%;
+  margin: 30px 0;
+}
